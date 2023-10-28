@@ -1,0 +1,79 @@
+<ul class="collection with-header">
+  <li class="collection-header">
+    <div class="row">
+      <div class="col s3 waves-effect">
+        <a>
+          <span>Posts</span>
+          <span class="count">{{ user.posts.length }}</span>
+        </a>
+      </div>
+      <div class="col s5 waves-effect">
+        <a>
+          <span>Following</span>
+          <span class="count">{{ user.following.length }}</span>
+        </a>
+      </div>
+      <div class="col s4 waves-effect">
+        <a>
+          <span>Followers</span>
+          <span class="count">{{ user.followers.length }}</span>
+        </a>
+      </div>
+    </div>
+  </li>
+  <li class="collection-item">
+    <a routerLinkActive="active" routerLink="/streams">
+      Streams
+      <div class="secondary-content">
+        <i class="material-icons"> announcement </i>
+      </div>
+    </a>
+  </li>
+  <li class="collection-item">
+    <a routerLinkActive="active" routerLink="/people">
+      People
+      <div class="secondary-content"><i class="material-icons">people</i></div>
+    </a>
+  </li>
+  <li class="collection-item">
+    <a routerLinkActive="active" routerLink="/following">
+      Following
+      <div class="secondary-content">
+        <i class="material-icons">person_outline</i>
+      </div>
+    </a>
+  </li>
+  <li class="collection-item">
+    <a routerLinkActive="active" routerLink="/followers">
+      Followers
+      <div class="secondary-content"><i class="material-icons">person</i></div>
+    </a>
+  </li>
+  <li class="collection-item">
+    <a routerLinkActive="active" [routerLink]="['/photos', user._id]">
+      Photos
+      <div class="secondary-content">
+        <i class="material-icons">photo_library</i>
+      </div>
+    </a>
+  </li>
+  <li class="collection-item">
+    <a routerLinkActive="active" routerLink="/notifications">
+      Notifications
+      <div class="secondary-content">
+        <i class="material-icons">notifications</i>
+      </div>
+    </a>
+  </li>
+  <li class="collection-item">
+    <a routerLinkActive="active" routerLink="/messages">
+      Messages
+      <span class="count_badge" *ngIf="count">{{ count }}</span>
+      <div class="secondary-content">
+        <i class="material-icons" [ngClass]="count > 0 ? 'alret' : ''"
+          >mode_comment</i
+        >
+      </div>
+    </a>
+  </li>
+</ul>
