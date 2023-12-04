@@ -3,6 +3,7 @@
     color: #F1F6F9;
     font-family: "sub-main";
     font-weight: bold;
+    margin-left:10px
 }
 .login-btn:hover{
     background-color: #F1F6F9;

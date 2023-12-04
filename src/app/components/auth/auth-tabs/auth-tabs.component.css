@@ -1,9 +1,12 @@
 section{
-  background-color: #9BA4B5;
+  background-color: #f0f0f0;
   height: 100vh;
 }
 .card {
   margin-top: 50px;
+}
+.card .card-content{
+  padding: 0px;
 }
 .tabs a {
   color: #394867;
@@ -20,4 +23,7 @@ section{
   font-weight: bold;
   color: #394867;
   font-family: "sub-main";
+}
+.row{
+  margin-bottom: 0px;
 }
