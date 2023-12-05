@@ -4,7 +4,7 @@ This project was generated with Angular CLI version 15.0.5.
 
 ## Development server
 
-Clone Hi-API Repo , then install dependencies " npm install " and the server will run on "http://locahost:3000" ,
+Clone Hi-API Repo "https://github.com/AymanElsawy/hi-API" , then install dependencies " npm install " and the server will run on "http://locahost:3000" ,
 
 Clone this Repo , Run "npm install" then navigate to "http://localhost:4200"
 
