@@ -10,14 +10,14 @@ Clone this Repo , Run "npm install" then navigate to "http://localhost:4200"
 
 ## Dependencies
 
-1- materialize-css__
-2- alertifyjs__
-3- animate.css__
-4- lodash__
-5- moment__
-6- ngx-auto-scroll__
-7- ngx-cookie-service__
-8- socket.io-client__
+1- materialize-css<br>
+2- alertifyjs<br>
+3- animate.css<br>
+4- lodash<br>
+5- moment<br>
+6- ngx-auto-scroll<br>
+7- ngx-cookie-service<br>
+8- socket.io-client<br>
 
 ## You have to login or signup
 
